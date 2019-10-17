@@ -77,7 +77,7 @@ http://danneo.ru/license
 
 Форум поддержки
 ---------
-http://forum.danneo.ru
+http://forum.danneo.ru/index.php?topic=389.0
 
 Надеемся, что наши разработки окажутся полезными для вас!
 Danneo Team.
