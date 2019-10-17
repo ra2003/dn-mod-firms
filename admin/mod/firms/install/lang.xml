@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language type="update">
+ <set>
+  <name><![CDATA[Каталог фирм]]></name>
+   <lang name="addit_new_firms" cache="0"><![CDATA[Добавленные организации]]></lang>
+   <lang name="all_firms" cache="0"><![CDATA[Название организации]]></lang>
+   <lang name="all_new_firms" cache="0"><![CDATA[Новые организации]]></lang>
+   <lang name="all_new_firms_no" cache="0"><![CDATA[Добавленные организации отсутствуют]]></lang>
+   <lang name="comment_in_firms" cache="0"><![CDATA[Комментарии организаций]]></lang>
+   <lang name="comment_moder_firms" cache="0"><![CDATA[Модерация комментариев]]></lang>
+   <lang name="edit_moder" cache="1"><![CDATA[Изменения успешно сохранены!<br />После проверки модератором, организация будет опубликована на сайте.]]></lang>
+   <lang name="edit_public" cache="1"><![CDATA[Изменения успешно сохранены!]]></lang>
+   <lang name="firms" cache="1"><![CDATA[Организация]]></lang>
+   <lang name="firmsadd_message" cache="1"><![CDATA[Добавлена новая организация{br}Название: {title}{br}Описание: {text}{br}Дата: {date}]]></lang>
+   <lang name="firmsadd_subject" cache="1"><![CDATA[Добавлена новая организация]]></lang>
+   <lang name="moder_mail_msg" cache="1"><![CDATA[{date},{br}{uname}, внес изменения в организацию: {title}{br}{br}Описание:{br}{text}{br}{br}--{br}{site}]]></lang>
+   <lang name="firmsedit_subject" cache="1"><![CDATA[Постмодерация организации]]></lang>
+   <lang name="firms_add" cache="1"><![CDATA[Добавить организацию]]></lang>
+   <lang name="firms_add_error" cache="1"><![CDATA[Вы не указали название организации!]]></lang>
+   <lang name="firms_add_hint" cache="0"><![CDATA[Запретив добавления, вы полностью отключите эту опцию.]]></lang>
+   <lang name="firms_add_time" cache="0"><![CDATA[Время между добавлениями (в сек.)]]></lang>
+   <lang name="firms_alert_mail" cache="1"><![CDATA[Введите E-Mail]]></lang>
+   <lang name="firms_alert_message" cache="1"><![CDATA[Введите текст сообщения]]></lang>
+   <lang name="firms_alert_subject" cache="1"><![CDATA[Введите тему сообщения]]></lang>
+   <lang name="firms_all" cache="1"><![CDATA[Все организации]]></lang>
+   <lang name="firms_count" cache="1"><![CDATA[Количество организаций]]></lang>
+   <lang name="firms_descript" cache="1"><![CDATA[Описание]]></lang>
+   <lang name="firms_edit" cache="1"><![CDATA[Редактировать]]></lang>
+   <lang name="firms_fk" cache="1"><![CDATA[Facebook]]></lang>
+   <lang name="firms_go" cache="1"><![CDATA[Перейти]]></lang>
+   <lang name="all_basic" cache="1"><![CDATA[Основное]]></lang>
+   <lang name="firms_hits" cache="1"><![CDATA[Просмотров]]></lang>
+   <lang name="firms_imgsize_bad" cache="1"><![CDATA[Размер изображения не соответствует ограничениям!]]></lang>
+   <lang name="firms_imgtype_bad" cache="1"><![CDATA[Формат загружаемого файла не соответствует ограничеиям!]]></lang>
+   <lang name="firms_img_big" cache="1"><![CDATA[Ссылка на большое изображение]]></lang>
+   <lang name="firms_img_small" cache="1"><![CDATA[Ссылка на маленькое изображение]]></lang>
+   <lang name="firms_mail" cache="1"><![CDATA[Электронная почта]]></lang>
+   <lang name="firms_map" cache="1"><![CDATA[Организация на карте]]></lang>
+   <lang name="firms_my" cache="1"><![CDATA[Мои организации]]></lang>
+   <lang name="firms_open" cache="1"><![CDATA[Открыть]]></lang>
+   <lang name="firms_rating" cache="1"><![CDATA[Рейтинг организации]]></lang>
+   <lang name="firms_read" cache="1"><![CDATA[Подробнее]]></lang>
+   <lang name="alert_text" cache="1"><![CDATA[Отнеситесь внимательно к заполнению всех полей формы!]]></lang>
+   <lang name="moder_text" cache="1"><![CDATA[В противном случае, ваша организация не сможет пройти модерацию и не попадёт в наш каталог.]]></lang>
+   <lang name="firms_search" cache="1"><![CDATA[Поиск организации]]></lang>
+   <lang name="firms_send_mess" cache="1"><![CDATA[Отправить сообщение]]></lang>
+   <lang name="firms_social" cache="1"><![CDATA[Мы в социальных сетях]]></lang>
+   <lang name="firms_time_error" cache="1"><![CDATA[Сожалеем, но Вы не можете так часто добавлять объявления!<br> Попробуйте позже.]]></lang>
+   <lang name="web_site" cache="1"><![CDATA[Сайт]]></lang>
+   <lang name="add_link" cache="1"><![CDATA[Добавить ссылку]]></lang>
+   <lang name="all_show" cache="1"><![CDATA[Показать]]></lang>
+   <lang name="in_contact" cache="1"><![CDATA[Связаться]]></lang>
+   <lang name="all_contacts" cache="1"><![CDATA[Контакты]]></lang>
+   <lang name="all_cat" cache="1"><![CDATA[Категории]]></lang>
+   <lang name="firms_who_add_hint" cache="0"><![CDATA[Это настройка определяет, кто сможет добавлять организации.]]></lang>
+   <lang name="firms_yandex" cache="0"><![CDATA[Выводить карту (Яндекс)]]></lang>
+   <lang name="home_last_firms" cache="0"><![CDATA[Последние организации]]></lang>
+   <lang name="last_firms" cache="0"><![CDATA[Последние организации]]></lang>
+   <lang name="menu_tags_firms" cache="0"><![CDATA[Теги организаций]]></lang>
+   <lang name="moder_new" cache="1"><![CDATA[Ваша организация успешно добавлена! <br />После проверки модератором, она будет опубликована на сайте.]]></lang>
+   <lang name="public_new" cache="1"><![CDATA[Ваша организация успешно добавлена на сайт.]]></lang>
+   <lang name="print_firms" cache="1"><![CDATA[Печать]]></lang>
+   <lang name="search_in_firms" cache="1"><![CDATA[Поиск в организациях]]></lang>
+   <lang name="allow_files" cache="0"><![CDATA[Разрешить прикреплять файлы]]></lang>
+   <lang name="max_file" cache="1"><![CDATA[Максимальный размер файла (Кб)]]></lang>
+   <lang name="help_ext_files" cache="0"><![CDATA[Форматы файлов через запятую:<br />zip,rar,xls,xlsx,doc,docx]]></lang>
+   <lang name="all_ruldel" cache="0"><![CDATA[Разрешить удаление]]></lang>
+   <lang name="all_whodel" cache="0"><![CDATA[Кто может удалять]]></lang>
+   <lang name="moderate_add" cache="0"><![CDATA[Модерировать добавленные]]></lang>
+   <lang name="stat_firms" cache="0"><![CDATA[Статистика организаций (активные)]]></lang>
+   <lang name="help_phone" cache="0"><![CDATA[Только цифры в любом формате]]></lang>
+   <lang name="img_help" cache="1"><![CDATA[Изображение в начале описания<br>Форматы - JPG, GIF, PNG<br>Максимальный размер 2 Мб]]></lang>
+   <lang name="img_intro" cache="1"><![CDATA[Вводное изображение]]></lang>
+   <lang name="multiple_help" cache="1"><![CDATA[Удерживайте нажатой клавишу CTRL для выбора нескольких вариантов]]></lang>
+   <lang name="not_accept" cache="0"><![CDATA[Отклонить]]></lang>
+   <lang name="not_email" cache="1"><![CDATA[E-mail (не публикуется)]]></lang>
+   <lang name="place_address" cache="1"><![CDATA[улица, дом, корпус, строение, офис]]></lang>
+   <lang name="post_moderate" cache="0"><![CDATA[Постмодерация]]></lang>
+   <lang name="reedit_msg_no" cache="1"><![CDATA[Модерация отклонена.{br}Название: {title}{br}Причина: {notice}{br}Ссылка на страницу редактирования: {link}{br}Дата: {date}{br}--{br}С уважением, администрация сайта: {site}]]></lang>
+   <lang name="reedit_msg_ok" cache="1"><![CDATA[Модерация одобрена.{br}Название: {title}{br}Ссылка на страницу: {link}{br}Дата: {date}{br}--{br}С уважением, администрация сайта: {site}]]></lang>
+   <lang name="send_edit" cache="1"><![CDATA[Отправить на модерацию]]></lang>
+   <lang name="switch_light" cache="1"><![CDATA[Выключить свет]]></lang>
+   <lang name="tags_new" cache="1"><![CDATA[Добавить новые метки]]></lang>
+   <lang name="tags_new_help" cache="1"><![CDATA[Слова или словосочетания, через запятую]]></lang>
+   <lang name="sys_manage" cache="1"><![CDATA[Управление]]></lang>
+   <lang name="social_net" cache="1"><![CDATA[Соц.сеть]]></lang>
+   <lang name="link_page" cache="1"><![CDATA[Ссылка на страницу]]></lang>
+   <lang name="position" cache="1"><![CDATA[Позиция]]></lang>
+   <lang name="save_posit" cache="1"><![CDATA[Сохранить позиции]]></lang>
+
+   <lang name="photo_one" cache="1"><![CDATA[Фото]]></lang>
+   <lang name="photo_album" cache="1"><![CDATA[Фотогалерея]]></lang>
+   <lang name="photo_allow" cache="0"><![CDATA[Разрешить создавать фотоальбом]]></lang>
+   <lang name="photo_who_add" cache="0"><![CDATA[Кто может добавлять фото]]></lang>
+   <lang name="photo_allow_del" cache="0"><![CDATA[Разрешить удалять фото]]></lang>
+   <lang name="photo_who_del" cache="0"><![CDATA[Кто может удалять фото]]></lang>
+   <lang name="photo_add" cache="1"><![CDATA[Добавить фото]]></lang>
+   <lang name="photo_del" cache="1"><![CDATA[Удалить фото]]></lang>
+   <lang name="photo_open" cache="1"><![CDATA[Увеличить фото]]></lang>
+   <lang name="photo_edit" cache="1"><![CDATA[Редактировать фото]]></lang>
+   <lang name="photo_error_type" cache="0"><![CDATA[Изображение имеет не верный формат]]></lang>
+
+   <lang name="video_album" cache="1"><![CDATA[Видеогалерея]]></lang>
+   <lang name="video_allow" cache="0"><![CDATA[Разрешить создавать видеоальбом]]></lang>
+   <lang name="video_who_add" cache="0"><![CDATA[Кто может добавлять видео]]></lang>
+   <lang name="video_allow_del" cache="0"><![CDATA[Разрешить удалять видео]]></lang>
+   <lang name="video_who_del" cache="0"><![CDATA[Кто может удалять видео]]></lang>
+   <lang name="video_add" cache="1"><![CDATA[Добавить видео]]></lang>
+   <lang name="video_del" cache="1"><![CDATA[Удалить видео]]></lang>
+   <lang name="video_open" cache="1"><![CDATA[Открыть видео]]></lang>
+   <lang name="video_edit" cache="1"><![CDATA[Редактировать видео]]></lang>
+   <lang name="video_link" cache="1"><![CDATA[Ссылка видео (Поделиться)]]></lang>
+   <lang name="video_error" cache="1"><![CDATA[Ошибка импорта видео, проверьте корректность ссылки!]]></lang>
+   <lang name="video_help" cache="1"><![CDATA[Youtube, Rutube, Vimeo, ВКонтакте]]></lang>
+   <lang name="video_help_title" cache="1"><![CDATA[Если поле не заполнено, будет использовано название со страницы видео]]></lang>
+   <lang name="video_help_photo" cache="1"><![CDATA[Если поле не заполнено, будет использовано фото со страницы видео]]></lang>
+
+   <lang name="response_add" cache="1"><![CDATA[Оставить отзыв]]></lang>
+   <lang name="response_moderate" cache="0"><![CDATA[Модерировать отзывы]]></lang>
+   <lang name="review_all" cache="1"><![CDATA[Отзывы]]></lang>
+   <lang name="review" cache="1"><![CDATA[Отзыв]]></lang>
+   <lang name="reviews" cache="1"><![CDATA[Все отзывы]]></lang>
+   <lang name="review_del" cache="0"><![CDATA[Удалить отзыв]]></lang>
+   <lang name="review_edit" cache="0"><![CDATA[Редактировать отзыв]]></lang>
+   <lang name="reviews_firm" cache="1"><![CDATA[Отзывы организации]]></lang>
+   <lang name="reviews_new" cache="0"><![CDATA[Новые отзывы]]></lang>
+   <lang name="reviews_allow" cache="0"><![CDATA[Разрешить добавлять отзывы]]></lang>
+   <lang name="reviews_time" cache="0"><![CDATA[Время повторного отзыва]]></lang>
+   <lang name="reviews_page" cache="0"><![CDATA[Отзывов на страницу]]></lang>
+   <lang name="reviews_moderate" cache="0"><![CDATA[Модерировать отзывы]]></lang>
+
+   <lang name="person" cache="1"><![CDATA[Контактное лицо]]></lang>
+   <lang name="all_vip" cache="0"><![CDATA[VIP-статус]]></lang>
+   <lang name="all_postarract" cache="1"><![CDATA[<strong>Постмодерация</strong>']]></lang>
+   <lang name="all_region" cache="1"><![CDATA[Область]]></lang>
+   <lang name="all_city" cache="1"><![CDATA[Город]]></lang>
+   <lang name="all_address" cache="1"><![CDATA[Адрес]]></lang>
+   <lang name="all_accept" cache="1"><![CDATA[Подтвердить]]></lang>
+   <lang name="rise_up" cache="1"><![CDATA[Поднять наверх]]></lang>
+   <lang name="allow_tags" cache="0"><![CDATA[Разрешить теги]]></lang>
+   <lang name="added_service" cache="1"><![CDATA[Виды деятельности]]></lang>
+   <lang name="all_whoedit" cache="0"><![CDATA[Кто может редактировать]]></lang>
+   <lang name="err_moderate" cache="1"><![CDATA[Причина отклонения модерации]]></lang>
+   <lang name="all_ruledit" cache="0"><![CDATA[Разрешить редактирование]]></lang>
+   <lang name="moderator_mail" cache="0"><![CDATA[E-Mail модератора]]></lang>
+   <lang name="help_moderator_mail" cache="0"><![CDATA[Если поле не заполнено, сообщения будут переадресованы на E-Mail администратора сайта]]></lang>
+   <lang name="file_help" cache="1"><![CDATA[Форматы - {ext}<br /> Максимальный размер 2 мб]]></lang>
+   <lang name="attach_file" cache="1"><![CDATA[Прикрепить файл]]></lang>
+   <lang name="cat_icon_link" cache="0"><![CDATA[Иконка категории в анонсах]]></lang>
+   <lang name="who_page_main" cache="0"><![CDATA[Количество на страницу ⁄ Главная]]></lang>
+   <lang name="moderate" cache="0"><![CDATA[Модерировать]]></lang>
+   <lang name="all_location" cache="1"><![CDATA[Местоположение]]></lang>
+   <lang name="contact_data" cache="1"><![CDATA[Контактные данные]]></lang>
+   <lang name="cat_basic" cache="1"><![CDATA[Основная категория]]></lang>
+   <lang name="cat_click" cache="1"><![CDATA[Выбрать категорию]]></lang>
+   <lang name="all_login" cache="1"><![CDATA[Логин]]></lang>
+   <lang name="addit_new_firms" cache="0"><![CDATA[Добавленные организации]]></lang>
+   <lang name="publish" cache="0"><![CDATA[Опубликовать]]></lang>
+   <lang name="bad_phone" cache="1"><![CDATA[Неверный формат телефона]]></lang>
+   <lang name="alert_active" cache="1"><![CDATA[Будут активированы все выбранные пункты!]]></lang>
+   <lang name="multi_category" cache="1"><![CDATA[Мультикатегории]]></lang>
+   <lang name="other_category" cache="1"><![CDATA[Дополнительные категории]]></lang>
+   <lang name="multi_category_help" cache="1"><![CDATA[Возможность добавления в несколько категорий]]></lang>
+ </set>
+</language>

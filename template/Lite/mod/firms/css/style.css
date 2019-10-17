@@ -1,0 +1,374 @@
+/**
+ * File:        /template/Lite/mod/firms/css/style.css
+ *
+ * Template:    Lite
+ *
+ * Project:     Danneo Team
+ * @version     Danneo CMS (Next) 
+ * @copyright   (c) 2005-2017 Danneo Team
+ */
+.black { color: #000; }
+.wrap-content article {
+    padding-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f0f1;
+}
+.wrap-content article:last-child {
+    margin-bottom: 0;
+    border-bottom: 0 none;
+}
+article[role=article] .text-content .contacts {
+    list-style-type: none;
+    float: right;
+    width: 170px;
+    min-height: 100%;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 2px solid #f0f0f1;
+}
+article[role=article] .text-content .contacts li {
+    color: #999;
+    font-size: 14px;
+}
+.show-form {
+    background-color: #e0e0e1;
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    text-indent: 25px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    width: 130px;
+    margin: 5px 0 5px auto;
+    padding: 5px 0px 3px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    box-shadow: 1px 3px 3px -4px #ddd;
+    text-shadow: 0 1px 0 #f0f0f1;
+}
+.show-form:hover,
+.show-form:active,
+.show-form:focus {
+    background-color: #0496AF;
+    color: #fff;
+    text-shadow: none;
+    border-color: #038196;
+}
+.show-form:before {
+    background-color: #d00204;
+    font-family: 'icomoon';
+    color: #fff;
+    content: "\e902";
+    font-size: 12px;
+    text-indent: 3px;
+    line-height: 2em;
+    width: 25px;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    border-right: 1px solid #fff;
+    box-shadow: 1px 6px 3px -4px #ddd;
+    text-shadow: none;
+}
+
+.sub-title.photo:before { content: "\e905"; font-size: 23px; text-indent: 11px; line-height: 43px; }
+.sub-title.video:before { content: "\e907"; font-size: 23px; text-indent: 11px; line-height: 43px; }
+.sphone	{
+	display: inline-block;
+	color: #999;
+	padding-left: 0px;
+	position: relative;
+	cursor: pointer;
+}
+.sphone:hover	{
+	color: #000;
+}
+/*.sphone:before { 
+	font-family: 'icomoon';
+	content: "\e914";
+	color: #ccc;
+	font-size: 14px;
+	text-indent: 1px;
+	line-height: 1.4em;
+	width: 15px;
+	height: 100%;
+	position: absolute;
+	top: 0; left: -20px;
+	z-index: 1; 
+}*/
+	
+/***/
+.comment-time {
+	font-weight: normal;
+}
+
+/***/
+.data-docs {
+    padding-right: 3px;
+    padding-bottom: 15px;
+    margin-bottom: 15px !important;
+    position: relative;
+    top: 20px;
+}
+.data-docs:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.data-docs legend {
+    display: block;
+    color: #999;
+    padding: 7px 0;
+    margin: 5px 0 0;
+}
+.js .data-docs aside {
+    display: inline-block;
+    width: 97.3%;
+    height: 42px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #f0f0f1;
+    z-index: 1;
+}
+.data-docs aside {
+    display: inline-block;
+    width: 97.3%;
+}
+@media screen and (max-width: 75em) {
+    .data-docs > span {
+    display: none;
+}
+}
+.js .data-docs button {
+    background-color: #f0f0f1;
+    display: block;
+    color: #666;
+    font-size: 12px;
+    line-height: 42px;
+    text-align: center;
+	font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #fff;
+    width: 190px !important;
+    height: 42px;
+    cursor: pointer;
+    position: absolute;
+	bottom: -3px;
+    right: 0;
+    z-index: -1;
+    outline: 0;
+    border: 0 none;
+    overflow: visible;
+}
+.data-docs button {
+    display: none;
+}
+.data-docs aside:hover button {
+    color: #000;
+    text-shadow: none;
+    margin: 0;
+}
+.js .data-docs input {
+    display: inline-block;
+    opacity: 0;
+    filter: alpha(opacity: 0);
+    font-size: 200px;
+    border: 0 none;
+    cursor: pointer;
+    position: absolute;
+    right: -70%;
+    z-index: 1;
+}
+.data-docs > output {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.data-docs > output > span {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    line-height: 39px;
+    white-space: nowrap;
+    width: auto;
+    height: 39px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+.data-docs > output span > b {
+    color: #0db104;
+    font-weight: normal;
+}
+.data-docs > output span > b > i {
+    color: #999;
+    font-style: normal;
+}
+.data-docs > output span > i {
+    color: #000;
+    font-style: normal;
+    animation: blink 1s linear infinite;
+}
+.data-docs > output .views {
+    display: none;
+}
+.data-docs > output > .views > img {
+    display: none;
+}
+.data-docs > output .views.error {
+    border-color: #f60;
+}
+
+/***/
+.work {
+    border-collapse: separate;
+    border-spacing: 1px;
+    background: #ffffff;
+    font-family: Arial, PT Sans, sans-serif;
+    font-size: 1em;
+    width: 100%;
+	margin-bottom: 20px;
+}
+.work th {
+    color: #000;
+    text-align: left;
+    font-weight: normal;
+    background: #f0f0f1;
+    padding: 10px 10px;
+}
+.work td:first-child {
+    text-align: center;
+    width: 30px;
+}
+.work th.ac,.work td.ac {
+    text-align: center;
+}
+.work td {
+    color: #999;
+    text-align: left;
+    vertical-align: middle;
+    background: #fff;
+    padding: 7px 10px;
+}
+.work td.sale {
+    background: #fdefe9 !important;
+    color: #bf1e2e;
+    text-align: center;
+    width: 35%;
+}
+.work tr:nth-child(odd) td {
+    background: #f9f9f9;
+}
+.work tr.not td {
+    background: #fee;
+}
+.work tr.mod td {
+    background: #eeebfc;
+}
+.work td:last-child {
+    width: 15% !important;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.work td:last-child a {
+    display: inline-block;
+}
+.work td:last-child a:hover {
+    text-decoration: none;
+}
+.work td:nth-child(2) {
+	line-height: 1.3em;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+.work td:nth-child(3) a img,
+.work td:nth-child(4) a img,
+.work td:last-child a img {
+    background-color: #c7cbd4;
+    border-radius: 29px;
+}
+.work td:last-child img {
+    background-color: #a392ef;
+    border-radius: 29px;
+}
+.work td:nth-child(3) a:hover img,
+.work td:nth-child(4) a:hover img,
+.work td:last-child a:hover img {
+    background-color: #aab0be;
+}
+.work a.inact > img {
+    background-color: #c87982 !important;
+}
+.work a.inact > img:hover {
+    background-color: #ae4752 !important;
+}
+.work .done: last-child a.inact > img {
+    background-color: #a293ee;
+}
+.work .done: last-child a.inact > img:hover {
+    background-color: #7c67e7;
+}
+.work td a.media-view > img {
+    border-radius: 0;
+	border: 2px solid #f0f0f1;
+}
+.work td a.media-view > img:hover {
+    border-radius: 0;
+	border: 2px solid #e3e3e5;
+}
+
+/***/
+.comment input,
+.comment select,
+.comment textarea {
+    display: inline-block;
+    width: 97.3%;
+}
+.comment fieldset.get-notice {
+    padding: 0;
+    margin: 25px 0 10px;
+}
+.comment legend {
+    font-size: 14px;
+}
+.comment fieldset.get-notice span {
+    display: inline-block;
+    line-height: 27px;
+}
+.comment fieldset.get-notice input {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    position: relative;
+    left: 1px;
+    margin-right: 10px;
+}
+.comment fieldset > .help {
+    background-color: #e0e0e0;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    cursor: default;
+    border-radius: 50%;
+	position: relative;
+	top: 4px;
+	left: 5px;
+}
+.comment fieldset > .help:hover {
+    background-color: #ccc;
+}
+a.go { width: 165px; }
+a.go:before { content: "\e94b"; font-size: 18px; text-indent: 0px; line-height: 42px; }
